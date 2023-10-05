@@ -1,10 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.scss';
+import Navbar from 'components/Navbar';
+import Home from 'pages/Home';
 
 const App = () => {
   return (
     <>
-      <h1>Hello DSLayout</h1>
+      <Home />
     </>
   );
 };

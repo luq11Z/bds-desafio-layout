@@ -1,0 +1,145 @@
+.home-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.home-main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #00285F;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    min-height: 365px;
+
+    svg {
+        width: 80%;
+        height: auto;
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+    }
+}
+
+.home-main-card-image {
+    padding-top: 60px;
+}
+
+.home-main-card-content {
+    margin-top: 35px;
+
+    p {
+        padding-top: 15px;
+    }
+}
+
+.home-content-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 30px 0 25px 0;
+    border-radius: 10px;
+    background: #EDEDED;
+    justify-content: center;
+    min-height: 123px;
+
+    button {
+        width: auto;
+        min-width: 175px;
+        height: 40px;
+    }
+
+    p {
+        padding-top: 10px;
+        color: #585858;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    .home-container {
+        padding: 20px;
+    }
+
+    .home-main-card {
+        min-width: 300px;
+        min-height: 365px;
+    }
+
+    .home-main-card-content {
+        p {
+            font-size: 18px;
+        }        
+    }
+
+    .home-content-card {
+        flex-direction: row;
+
+        p {
+            margin-left: 16px;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .home-main-card {
+        min-width: 540px;
+        min-height: 365px;
+
+        svg {
+            min-width: 335px;
+            min-height: 200px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-container {
+        padding: 20px;
+    }
+
+    .home-main-card {
+        width: 100%;
+        min-height: 580px;
+        padding: 80px 80px;
+
+        svg {
+            min-width: 455px;
+            min-height: 199px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .home-container {
+        padding: 30px 150px;
+    }
+
+    .home-main-card {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 365px;
+        padding: 80px 80px;
+
+        svg {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .home-main-card-content {
+        margin-right: 60px;
+    }
+}
