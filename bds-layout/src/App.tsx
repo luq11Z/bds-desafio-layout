@@ -1,12 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.scss';
-import Navbar from 'components/Navbar';
-import Home from 'pages/Home';
+import AppRoutes from 'AppRoutes';
 
 const App = () => {
   return (
     <>
-      <Home />
+      <AppRoutes />
     </>
   );
 };
